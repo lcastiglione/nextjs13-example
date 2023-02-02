@@ -8,7 +8,7 @@ export default async function CommentPage ({ params }) {
   const comments = await fetchComments(id)
 
   return (
-    <ul style={{ background:fontSize: '12px' }}>
+    <ul style={{ background: '#eee', fontSize: '12px' }}>
       {comments.map(comment => (
         <li key={comment.id}>
           <h4 style={{ color: '#09f' }}>{comment.name}</h4>
