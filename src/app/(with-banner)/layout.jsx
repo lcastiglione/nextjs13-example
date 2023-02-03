@@ -3,9 +3,9 @@
 export default function Postlayout ({ children }) {
   return (
     <div>
-      <small>
-        Home &bull; Posts
-      </small>
+      <marquee style={{ background: '#fff', color: 'purple' }}>
+        My Banner
+      </marquee>
       {children}
     </div>
   )
